@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+
+  .container-fluid {
+    align-items: center;
+
+    .navbar-nav {
+      margin-left: 5rem;
+      margin-right: 5rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .carrito {
+      background-color: rgb(255, 255, 255);
+      width: 2rem;
+      height: 2rem;
+      margin: 1rem;
+      margin-right: 5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      -webkit-border-radius: 25%;
+      -moz-border-radius: 25%;
+      -ms-border-radius: 25%;
+      -o-border-radius: 25%;
+      border-radius: 25%;
+    }
+
+    .logo {
+      margin-left: 5rem;
+      width: 4rem;
+      height: 4rem;
+      -webkit-border-radius: 15%;
+      -moz-border-radius: 15%;
+      -ms-border-radius: 15%;
+      -o-border-radius: 15%;
+      border-radius: 15%;
+    }
+
+    #navbarNav {
+      margin: 1rem;
+    }
+  }
+}

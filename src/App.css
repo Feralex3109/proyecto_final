@@ -1,0 +1,14 @@
+.div-principal {
+  width: 100%;
+  height: auto;
+  color: #000000;
+  background-color: #ffffff;
+
+  .titulosIndex {
+    width: 90%;
+    text-align: center;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+}

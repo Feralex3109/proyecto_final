@@ -1,0 +1,28 @@
+.Contador {
+  width: 90%;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+
+  color: #e0fbfc;
+  background-color: black;
+
+  .btnCount {
+    background-color: rgb(17, 17, 17);
+    color: #e0fbfc;
+  }
+  .contCant {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .btnCount:hover {
+    cursor: pointer;
+    background-color: rgb(46, 46, 46);
+  }
+}
